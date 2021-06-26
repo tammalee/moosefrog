@@ -3,8 +3,8 @@ languageCode: en-us
 defaultContentLanguage: en
 title: "Batfam Shitposts"
 theme: cupper-hugo-theme
-googleAnalytics: UA-123456789-1
-disqusShortname: yourdiscussshortname
+# googleAnalytics: UA-123456789-1
+# disqusShortname: yourdiscussshortname
 enableGitInfo: true
 
 taxonomies:
@@ -22,26 +22,26 @@ params:
   footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
-  codePenUser: someUser
+  # codePenUser: someUser
   katex: true
   hideHeaderLinks: false
-  search: true
+  search: false
   showThemeSwitcher: true
   moveFooterToHeader: false
   logoAlt: "An alternative text description of the logo"
-  customCss:
-    - css/custom_01.css
-    - css/custom_02.css
-  customJs:
-    - js/custom_01.js
-    - js/custom_02.js
+  # customCss:
+  #   - css/custom_01.css
+  #   - css/custom_02.css
+  # customJs:
+  #   - js/custom_01.js
+  #   - js/custom_02.js
 
 menu:
   nav:
     - name: Home
       url: /
       weight: 1
-    - name: Blog
+    - name: Posts
       url: /post/
       weight: 2
     - name: Tags
