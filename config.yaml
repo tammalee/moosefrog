@@ -1,11 +1,11 @@
-baseURL: https://example.com
+baseURL: https://moosefrog.com
 languageCode: en-us
 defaultContentLanguage: en
 title: "Batfam Shitposts"
 theme: cupper-hugo-theme
 # googleAnalytics: UA-123456789-1
 # disqusShortname: yourdiscussshortname
-enableGitInfo: true
+enableGitInfo: false
 
 taxonomies:
   tag: tags
@@ -25,10 +25,10 @@ params:
   # codePenUser: someUser
   katex: true
   hideHeaderLinks: false
-  search: false
+  search: true
   showThemeSwitcher: true
   moveFooterToHeader: false
-  logoAlt: "An alternative text description of the logo"
+  logoAlt: "Batfamily Shitposts"
   # customCss:
   #   - css/custom_01.css
   #   - css/custom_02.css
